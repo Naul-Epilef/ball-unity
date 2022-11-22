@@ -1,0 +1,76 @@
+{
+    "name": "Input Master",
+    "maps": [
+        {
+            "name": "Ball",
+            "id": "c86bd8c9-48f4-4a23-bb57-b81b043694ff",
+            "actions": [
+                {
+                    "name": "Aim & Fire",
+                    "type": "Button",
+                    "id": "ed25b7c7-a151-45f2-b5c1-46b4aa7be53e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "494aac7d-af28-4a78-9eec-21420a503c50",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "119fe58a-a83c-4d67-9f78-2877bb2add41",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Aim & Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "512dba86-52d3-4ae1-a8cc-97d3d5a0ef60",
+                    "path": "<Touchscreen>/touch*/Press",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Mobile",
+                    "action": "Aim & Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "734b55d9-ad78-496f-9334-3cebfedcaf68",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": []
+        },
+        {
+            "name": "Mobile",
+            "bindingGroup": "Mobile",
+            "devices": []
+        }
+    ]
+}
